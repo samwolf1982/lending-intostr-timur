@@ -1,0 +1,13 @@
+/*end mobile    begin middle*/ 
+ @media (min-width: 768px) { 
+
+     body{
+     	background-color: red !important;
+     }
+
+     .navbar{
+     	display: none;
+ min-height: 0;
+     }
+
+ }

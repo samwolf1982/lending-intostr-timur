@@ -1,0 +1,117 @@
+/**
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+
+@screen-sm-max:              (@screen-md-min - 1);
+
+
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+@screen-md-max:              (@screen-lg-min - 1);
+
+
+
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+
+@screen-xs-max:              (@screen-sm-min - 1);
+**/
+
+
+
+@media only screen and (max-width : 480px) {
+  body{
+     	background-color: black !important;
+     }
+}
+
+@media only screen and (max-width : 320px) {
+
+  body{
+     	background-color: brown !important;
+     }
+}
+
+
+
+
+
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   body{
+     /*	background-color: yellow;*/
+     }
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ body{
+     	/*background-color: gold !important;*/
+     }
+ }
+
+ /*mobile*/
+@media (max-width: 767px) { 
+body{
+     	/*background-color: green !important;*/
+     }
+p.contacts_text5, p.contacts_text6{
+
+	display: -moz-inline-box; /* Firefox 2 */
+display: inline-block; /* All good browsers */
+zoom: 1; /* IE6/7 magic */
+*display: inline; /* also IE magic, set this if it's not inline */
+}  
+.wrap_contact_text56{
+	text-align: center;
+	text-align: -webkit-center;
+	
+ }
+}
+
+
+
+/*start    end mobile    begin middle*/ 
+ @media (min-width: 768px) { 
+
+     body{
+     	/*background-color: red !important;*/
+     }
+
+     .navbar{
+     	display: none;
+ min-height: 0;
+     }
+     #test-swipe-1>div>h2,#test-swipe-2>div>h2{
+     	width:  100%;
+     	 }
+
+
+ }/*start    end mobile    begin middle*/ 
+
+@media (min-width: 768px) and (max-width: 991px) { 
+   body{
+     	/*background-color: red !important;*/
+     }
+ }
+@media (min-width: 992px) and (max-width: 1199px) { 
+  body{
+     	background-color: red !important;
+     }
+ }
+ /*big scren like me*/
+@media (min-width: 1200px) { 
+  body{
+     	/*background-color: red !important;*/
+     }
+     #test-swipe-1>div>h2,#test-swipe-2>div>h2{
+     	width:  90%;
+     	 
+ }
