@@ -43,6 +43,10 @@ a {
  * Sidebar
  */
 
+ .page-footer {
+    padding-top: 20px;
+    background-color: #383838;
+}
 /* Hide for mobile, show later */
 .sidebar {
   display: none;
@@ -320,6 +324,22 @@ text-align: -webkit-center;
 
 
 
+button:focus {
+    outline: none;
+    background-color: #d6632c;;
+}
+
+.pt3{
+  padding-top: 3em;
+}
+.mt3{
+  margin-top: 3em;
+}
 
 
-
+.before_footer:before{
+  content: url(/images/logo-min.png);
+  position: relative;
+  right:  150px;
+  top: 40px;
+}

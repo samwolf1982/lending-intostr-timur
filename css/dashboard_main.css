@@ -1,0 +1,32 @@
+body{
+background-image: url(/images/main/1.png);
+background-size: cover no-repeat;
+}
+.main_text_up{
+  color: #d6632c;
+  text-align: center;
+  font-size: 22px;
+   font-weight: bold;
+}
+.main_text_bottom{
+    text-align: right;
+      font-size: 52px;
+      font-weight: bold;
+}
+.main_text_bottom2{
+  text-align: center;
+}
+.main{
+  background-color: red;
+ height: 100%;
+ min-height: calc(100vh - 80px);
+
+}
+
+.go_down{
+   background-color: green;
+/* height: 100%;*/
+position: absolute;
+ bottom:  0px;
+
+}

@@ -1,0 +1,72 @@
+body{
+
+}
+
+#tabs-swipe-contacts li{
+	display: inline;
+}
+
+
+.pseudo_tab a{
+	  
+	        padding: 9px 24px;
+
+}
+
+#test-swipe-1{
+	margin-top: 20px;
+}
+
+ .slider .slides {
+    background-color: transparent;
+    margin: 0;
+    height: 400;
+}
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+}
+
+#test-swipe-2 h2{
+	text-align: center;
+	    text-align: -webkit-center;
+}
+
+.parallax-container {
+      height: 400px;
+    }
+
+    .caption-paralax{
+    	position: relative;
+    	height: 120px;
+    	bottom: 100px;
+    	background-color: #d6632c;
+
+    }
+
+    .home_tilte{
+        font-size: 28px;
+         font-weight: bold;
+         padding-top: 10px;
+    }
+
+        .home_tilte2,.home_tilte3 {
+        font-size: 18px;
+    
+        
+    }
+
+    .home_tilte3 b{
+        text-transform: uppercase;
+        
+    }
+
+
+#slider2 h3{
+    text-transform: uppercase;
+}
+
