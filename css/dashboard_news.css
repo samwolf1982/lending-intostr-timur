@@ -1,0 +1,80 @@
+.tabs-swipe-contacts-top a.active {
+    background-color: #d6632c;
+}
+
+.tabs-swipe-contacts-top {
+	/*padding-left: 0;
+	padding-right: 0;*/
+}
+.tabs-swipe-contacts-top  a {
+    color: white;
+    border: 1px solid #d6632c;
+    /* width: 80%; */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+   padding: 9px 24px;
+}
+.slider_top h3{
+	text-transform: uppercase;
+}
+
+#tabs-swipe-contacts .col{
+	text-align: center;
+	    text-align: -webkit-center;
+}
+
+#tabs-swipe-contacts li a{
+	border: none;
+}
+#tabs-swipe-contacts li a.active{
+	background-color: transparent;
+	color: #d6632c;
+}
+#tabs-swipe-contacts>.tab:nth-child(2) {
+     margin-left: 0; 
+}
+
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    z-index: 3;
+    color: #fff;
+    background-color: #d6632c;;
+    border-color: #d6632c;;
+    cursor: default;
+}
+
+.pagination li i {
+    font-size: 1rem;
+}
+
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    z-index: 2;
+    color:  #d6632c;;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+
+
+.card-image{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d6632c;;
+	
+}
+
+.card{
+	background-color: transparent;
+}
+.card-action{
+	color: #d6632c;
+}
+
+.tabs-swipe-contacts-top a{
+	white-space: nowrap;
+}
+
+.main {
+    padding-top:0;
+}

@@ -1,0 +1,30 @@
+#test-swipe-1 h1{
+	font-size: 36px;
+}
+.ylw{
+	color: #d6632c;
+}
+
+.prev_news:before{
+	content: '<';
+    position: relative;
+    width: 40px;
+ font-size: 30px;
+    top: 2px;
+    right: 4px;
+}
+
+.next_news:after{
+	content: '>';
+    position: relative;
+    width: 40px;
+ font-size: 30px;
+    top: 2px;
+    left: 4px;
+}
+
+
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: none;
+}
