@@ -1,0 +1,22 @@
+.main2{
+	background-image: url(/images/tender/1.png);
+	background-size: cover;
+	
+	margin: 0;
+ padding-top: 3em;
+}
+.main{
+padding: 0;
+
+
+}
+
+.pt2{
+	padding-top: 2em;
+}
+.b_line{
+	background-color: #484848;
+	display: inline-block;
+	width: 100%;
+	padding: 1em;
+}
