@@ -1,0 +1,391 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+/*  padding-top: 50px;*/
+  /*padding-top: 50px;*/
+  background-color: #555555;
+  color: white;
+  font-family:  BenderRegular;
+
+}
+.main{
+      padding-top: 50px;
+}
+.deviz{
+    font-family:  BenderBold;
+}
+a {
+  color:white;
+}
+.res-p{
+  padding: 0 !important;;
+}
+.res-m{
+  margin: 0 !important;;
+}
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+#navbar,.navbar-header{
+  background-color: #555555!important;
+  color: white;
+}
+#navbar *,.navbar-header *{
+ 
+  color: white!important;;
+}
+.navbar-form.navbar-right{
+  display: none;
+}
+.navbar-inverse {
+
+    height: 0;
+}
+
+
+ .page-footer {
+    padding-top: 20px;
+    background-color: #383838;
+}
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+    background-color: #555555!important;
+    top: 0!important;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+
+}
+
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+
+
+.curent-location{
+    border: 2px solid #d6632c; 
+    padding: 12px 0 12px 55px;
+    text-transform: uppercase;
+    margin-left: 12px;
+    width: 93%;
+}
+
+.nav.nav-sidebar.nav_own span{
+ float: right;
+}
+.left-line-menu{
+  float: left;
+      position: relative;
+    left: -16px;
+}
+.nav.nav-sidebar{
+/*  float: right;*/
+float: left;
+  width: 95%;
+}
+
+::-webkit-scrollbar { 
+    display: block; 
+    display: none;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+
+#nav_velosity{
+ /* width: 350px;*/
+ padding-right: 0;
+}
+
+#nav_velosity li{
+  width: 95%;
+  text-transform: uppercase;
+ 
+}
+
+.status{
+  float: right;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+ 
+    background-color: transparent;
+    color: white;
+}
+
+#tabs-swipe-contacts li  a{
+color: white;
+border: 1px solid #d6632c;
+/*width: 80%;*/
+text-transform: uppercase;
+text-decoration: none;
+font-size: 26px;
+text-align: left;
+}
+
+#tabs-swipe-contacts li  a.active{
+  background-color: #d6632c;
+}
+#tabs-swipe-contacts.tabs{
+  background-color: transparent;
+} 
+
+#tabs-swipe-contacts .indicator{
+  display: none !important;
+}
+
+
+#tabs-swipe-contacts>.tabs-content.carousel.initialized{
+ /* height: 100em!important;*/
+}
+/*body > div.container-fluid > div > div.col-sm-15.col-sm-offset-9.col-md-17.col-md-offset-7.col-lg-offset-5.col-lg-19.main > div.tabs-content.carousel.initialized{
+  height: 20em!important;
+}*/
+
+#test-swipe-1,#test-swipe-2{
+ /* height: 100%!important;*/
+  /*height: 20em!important;*/
+}
+
+.selectedwline:after{
+  content:url('/images/line-menu.png');
+  position: relative;
+  width: 40px;
+  left: 15px;
+    top: -2px;
+}
+
+p.contacts_text,p.contacts_text1,p.contacts_text2,p.contacts_text5,p.contacts_text6{
+  margin-bottom: 1em;
+  text-transform: uppercase;
+      margin-left: 8px;
+white-space: nowrap;
+
+}
+p.contacts_text:before{
+content:url('/images/icons/tel-l.png');
+height: 60px;/*height of image*/
+width: 60px;/*width of image*/
+position: relative;
+top:30px;
+right: 10px;
+}
+p.contacts_text1:before{
+content:url('/images/icons/loc.png');
+height: 60px;/*height of image*/
+width: 60px;/*width of image*/
+position: relative;
+top:30px;
+right: 10px;
+}
+p.contacts_text2:before{
+content:url('/images/icons/f.png');
+height: 60px;/*height of image*/
+width: 60px;/*width of image*/
+position: relative;
+top:30px;
+right: 10px;
+}
+
+
+
+
+p.contacts_text5:before{
+content:url('/images/icons/tel-small.png');
+height: 30px;/*height of image*/
+width: 30px;/*width of image*/
+position: relative;
+top:18px;
+right: 10px;
+}
+
+p.contacts_text6:before{
+content:url('/images/icons/loc-small.png');
+height: 30px;/*height of image*/
+width: 30px;/*width of image*/
+position: relative;
+top:18px;
+right: 10px;
+}
+
+
+
+
+
+/*#test-swipe-1 > div.col.m6.pink.res-p > h2*/
+#test-swipe-1>div>h2,#test-swipe-2>div>h2{
+  
+  padding: 30px 24px 30px 24px;
+ text-align: left;
+  width:  84%;
+  font-size: 26px;
+      background-color: #d6632c;
+      font-weight: normal;
+
+        }
+
+#test-swipe-1 p{
+  
+padding-right: 1em;
+}
+
+#test-swipe-1 form input,#test-swipe-1 form textarea {
+  background-color: #a0a0a0!important;
+  color: white!important;
+}
+
+#form_prodaza button{
+  background-color: #d6632c;
+      height: 50px;
+      width: 40%;
+}
+
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+   
+.wrap_map{
+  padding: 5em 0 1em 0 !important;
+}
+
+#tabs-swipe-contacts>.tab:nth-child(2){
+    margin-left: 2em;
+}
+#test-swipe-2 figure{
+text-align: center;
+text-align: -webkit-center;
+}
+
+.wrap_maps{
+  padding-top: 2em;
+}
+
+
+
+button:focus {
+    outline: none;
+    background-color: #d6632c;;
+}
+
+.pt3{
+  padding-top: 3em;
+}
+.mt3{
+  margin-top: 3em;
+}
+
+
+.before_footer:before{
+  content: url(/images/logo-min.png);
+  position: relative;
+  right:  150px;
+  top: 40px;
+}
+
+
+.yellow_btn{
+        color: white;
+    border: 1px solid #d6632c;
+  
+    background-color: #d6632c;
+    /* width: 80%; */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+
+.mt3-5{
+    padding-top: 3.5em;
+}
+.y_line{
+border-top: 1px solid #d6632c;
+}
+
+
+a[href^="http://html5box.com/"],  a[href^="https://html5box.com/"]{
+  display: none !important;
+}
