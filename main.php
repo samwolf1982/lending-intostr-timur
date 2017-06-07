@@ -155,10 +155,281 @@
 
 
    <!-- white footer -->
-    <div class="col-sm-24 go_down">
-      
- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, perspiciatis reiciendis autem ullam. Iste dolores sint quaerat vero eligendi. Necessitatibus asperiores voluptas vitae, autem officiis tempore rem quis vel, nihil!
+   <div class="col-sm-24 hidden-xs hidden-sm  go_down">
+
+    <div class="col-sm-24 col-md-8 lescai">
+
+<div  class="clientsDropDown">
+  <div  class="clientsDashboard">
+   
+       <div class="wrap_pop_form wrap_pop_form1">
+         
+         
+         <div class="slider slider_not_mobile" >
+    <ul class="slides">
+    <?php foreach (range(1, 5) as $key => $value) { ?>
+      <li>
+        <img src="/images/main/mobile/1.png"> <!-- random image -->
+      </li>
+    <?php } ?>
+    </ul>
+  </div>
+         
+
+       <section>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
+        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
+
+       </section>
+
+   <div class="text-center wrap_mobile_btn">
+     
+     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
+      </a>
+
+      </div>
+<div class="clearfix"></div>
+
+
+         <div class="slider slider_not_mobile" >
+    <ul class="slides">
+    <?php foreach (range(1, 5) as $key => $value) { ?>
+      <li>
+        <img src="/images/main/mobile/1.png"> <!-- random image -->
+      </li>
+    <?php } ?>
+    </ul>
+  </div>
+         
+
+       <section>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
+        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
+
+       </section>
+
+   <div class="text-center wrap_mobile_btn">
+     
+     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
+      </a>
+
+      </div>
+
+       
+
+
+
+       
+
+       </div>
+
+    
+  </div>
+  <!-- /clientsDashboard -->
+ 
+</div>
+
+
+   
+      <div class=" col-md-18">
+
+
+        <p class="footer_text">
+          ЖК "ЛЕССКАЙ"
+        </p>
+        </div>
+              <div class="col-md-6 logo_foot">
+              <img class="img-responsive" src="/images/main/logos/1.png" alt="ЖК ЛЕССКАЙ">  
+        </div>
     </div>
+
+
+
+       <div class="col-sm-24 col-md-8 lescai ">
+
+<div  class="clientsDropDown">
+  <div  class="clientsDashboard">
+   
+       <div class="wrap_pop_form wrap_pop_form2">
+         
+         
+         <div class="slider slider_not_mobile" >
+    <ul class="slides">
+    <?php foreach (range(1, 5) as $key => $value) { ?>
+      <li>
+        <img src="/images/main/mobile/1.png"> <!-- random image -->
+      </li>
+    <?php } ?>
+    </ul>
+  </div>
+         
+
+       <section>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
+        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
+
+       </section>
+
+   <div class="text-center wrap_mobile_btn">
+     
+     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
+      </a>
+
+      </div>
+<div class="clearfix"></div>
+
+
+         <div class="slider slider_not_mobile" >
+    <ul class="slides">
+    <?php foreach (range(1, 5) as $key => $value) { ?>
+      <li>
+        <img src="/images/main/mobile/1.png"> <!-- random image -->
+      </li>
+    <?php } ?>
+    </ul>
+  </div>
+         
+
+       <section>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
+        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
+
+       </section>
+
+   <div class="text-center wrap_mobile_btn">
+     
+     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
+      </a>
+
+      </div>
+
+       
+
+
+
+       
+
+       </div>
+
+    
+  </div>
+  <!-- /clientsDashboard -->
+ 
+</div>
+
+
+
+
+
+       <div class=" col-md-18">
+
+
+
+
+
+
+        <p class="footer_text">
+          ЖК "СИТИПАРК"
+        </p>
+        </div>
+              <div class="logo_foot col-md-6">
+              <img class="img-responsive" src="/images/main/logos/2.png" alt="ЖК ЛЕССКАЙ">  
+        </div>
+    </div>
+       <div class="col-sm-24 col-md-8 lescai">
+
+
+<div  class="clientsDropDown">
+  <div  class="clientsDashboard">
+   
+       <div class="wrap_pop_form wrap_pop_form2">
+         
+         
+         <div class="slider slider_not_mobile" >
+    <ul class="slides">
+    <?php foreach (range(1, 5) as $key => $value) { ?>
+      <li>
+        <img src="/images/main/mobile/1.png"> <!-- random image -->
+      </li>
+    <?php } ?>
+    </ul>
+  </div>
+         
+
+       <section>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
+        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
+
+       </section>
+
+   <div class="text-center wrap_mobile_btn">
+     
+     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
+      </a>
+
+      </div>
+<div class="clearfix"></div>
+
+
+         <div class="slider slider_not_mobile" >
+    <ul class="slides">
+    <?php foreach (range(1, 5) as $key => $value) { ?>
+      <li>
+        <img src="/images/main/mobile/1.png"> <!-- random image -->
+      </li>
+    <?php } ?>
+    </ul>
+  </div>
+         
+
+       <section>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
+        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
+
+       </section>
+
+   <div class="text-center wrap_mobile_btn">
+     
+     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
+      </a>
+
+      </div>
+
+       
+
+
+
+       
+
+       </div>
+
+    
+  </div>
+  <!-- /clientsDashboard -->
+ 
+</div>
+
+
+
+       <div class=" col-md-18">
+        <p class="footer_text">
+          ЖК "ОСТРОВА"
+        </p>
+        </div>
+              <div class="logo_foot col-md-6">
+              <img class="img-responsive" src="/images/main/logos/1.png" alt="ЖК ЛЕССКАЙ">  
+        </div>
+    </div>
+      </div>
+
+
+<!-- mobile footer -->
+ <?php 
+include 'mobile/main.php';
+  ?>
+
+
+
 
         </div>
 

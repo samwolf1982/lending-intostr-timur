@@ -180,7 +180,7 @@
 
       <h2>СДАНЫЕ</h2>
       <div id="finished" class="section scrollspy">
-        <p>Content progects ancor </p>
+      
       </div>
 
 <?php for ($i=0; $i <2 ; $i++) { ?> 
@@ -282,7 +282,7 @@
       </div>
 
 
- <h2>В ПРОДАЖЕ</h2>
+ <h2 class="mt3-5">В ПРОДАЖЕ</h2>
       <div id="sales" class="section scrollspy">
        
       </div>
