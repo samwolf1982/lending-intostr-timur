@@ -384,3 +384,8 @@ button:focus {
 .y_line{
 border-top: 1px solid #d6632c;
 }
+
+
+a[href^="http://html5box.com/"],  a[href^="https://html5box.com/"]{
+  display: none !important;
+}

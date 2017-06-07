@@ -59,75 +59,21 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">Интострой</a>
-        </div>
-        <!-- mobile menu -->
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">о нас</a></li>
-            <li><a href="#">объэкты</a></li>
-            <li><a href="#">тендеры</a></li>
-            <li><a href="#">вакансии</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
-        </div>
-      </div>
-    </nav>
+       <!-- nav -->
+   <?php 
+include_once 'head/nav.php';
+    ?>
 
     <div class="container-fluid">
       <div class="row">
 
 
         <div class="col-sm-9 col-md-6  col-lg-5 sidebar" id="nav_velosity">
-        
-         <img src="/images/left-line-menu.png" alt="" class="left-line-menu">
-          <ul class="nav nav-sidebar" >
-           <!--  <li class="active"><a href="/">
-              <img src="/images/logo.png" alt="logo">
-            </a></li> -->
-             <li class=""><a href="/">
-              <img  class="img-responsive logo" src="/images/logo.png" alt="logo">
-            </a></li>
-            <li ><a href="/">
-               <h4 class="deviz"><span style="white-space: nowrap;"> Мы строим </span><br><span style="white-space: nowrap;">вы живете</span> </h4>
-            </a></li>
-            <li >
-            <div class="curent-location">
-             контакты
-             </div>
-             </li>
-           
-          </ul>
-          <ul class="nav nav-sidebar nav_own">
-
-     <li><a href="/" class="selectedwline">главная   </a>   </li>
-
-
-            
-
-
-            <li><a href="">о нас</a></li>
-            <li><a href="">объэкты</a></li>
-            <li><a href="">тендеры</a></li>
-            <li><a href="">вакансии</a></li>
-                        <li><a href="">новости</a></li>
-          </ul>
-          <ul class="nav nav-sidebar nav_own">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
+                                                  <!-- left sidebar -->
+                  <?php 
+include_once 'head/sidebar.php';
+          ?>
+          
         </div>
         <div class="col-sm-15 col-sm-offset-9 col-md-18 col-md-offset-6  col-lg-offset-5 col-lg-19 main">
 
@@ -396,74 +342,12 @@ include_once 'footer.php';
       </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
+ <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/bootstrap-3.3.7/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="/bootstrap-3.3.7/docs/dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="/bootstrap-3.3.7/docs/assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
-
-
-
-
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-
-  
-<script>
-  
- var options = [ 
- // {selector: '#staggered-test', offset: 50, callback: function(el) { Materialize.toast("This is our ScrollFire Demo!", 1500 ); } },
- // {selector: '#staggered-test', offset: 205, callback: function(el) { Materialize.toast("Please continue scrolling!", 1500 ); } },
-  {selector: '#nav_velosity', offset: 500, callback: function(el) { Materialize.showStaggeredList($(el)); } }, 
-  // {selector: '#image-test', offset: 500, callback: function(el) { Materialize.fadeInImage($(el)); } }
-   ];
-
-   Materialize.scrollFire(options);
-
-</script>
-
-<script> 
-$(document).ready(function(){
-    // $(".nav.nav-sidebar").click(function(){
-    //     $("div").animate({left: '250px'});
-    // });
-
-$( ".nav.nav-sidebar.nav_own  a" ).mouseenter(function() {
-       var c=this;
-   $(c).animate({left: '25px'},function() {
-              // $(c).animate({left: '0'});
-  });
-});
-$( ".nav.nav-sidebar.nav_own  a" ).mouseleave(function() {
-       var c=this;
-   $(c).animate({left: '0px'},function() {
-              // $(c).animate({left: '0'});
-  });
-});
-
-
-
-
-    // $('ul.tabs').tabs({'swipeable':true});
-
-
-        
-
-
-});
-</script> 
-
-
-    <link href="/css/placeholders.css" rel="stylesheet">
-    <link href="/css/extentd_media.css" rel="stylesheet">
-
-
+<?php 
+include_once 'head/footer_scripts.php';
+ ?>
 
 
 
