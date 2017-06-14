@@ -203,7 +203,7 @@ background-size: cover no-repeat;*/
 
 
         .parallax-container {
-      height: 300px;
+      height: 380px;
      /* width: 450px;*/
     }
 
@@ -212,8 +212,42 @@ background-size: cover no-repeat;*/
     height: 80px;
     bottom: 80px;
     background-color: #d6632c;
-    width: 451px;
+    /*width: 451px;*/
 }
 .parallax-container{
-  width: 450px;
+/*  width: 450px;*/
+  /*height: 280px;*/
+}
+
+.page_container h2{
+  text-align: center;
+  text-align: -webkit-center;
+}
+.page_container .col-sm-12  {
+    text-align: center;
+  text-align: -webkit-center;
+}
+
+.home_tilte {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.page_container a:hover, .page_container a:active{
+  color: white;
+}
+.mt_up{
+  margin-top: -40px;
+}
+
+.go_down{
+ background-color: transparent;
+}
+
+.vegas-overlay{
+  background: transparent;
+}
+
+.page2 .page_container{
+  padding-top: 2em;
 }

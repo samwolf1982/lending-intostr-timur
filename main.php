@@ -48,7 +48,7 @@
     <![endif]-->
 
 
-
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 
 
@@ -78,7 +78,7 @@ include_once 'head/sidebar.php';
           
 
    <div class="col-sm-24 hidden-xs hidden-sm  main ">
-        <section class="page1 ">
+        <section class="page1 section">
           <div class="col-sm-24 col-md-6">
           <p class="main_text_up" >построено</p>
            <p class="main_text_bottom" >100000м<sup>2</sup> </p>
@@ -119,17 +119,17 @@ include_once 'head/sidebar.php';
       <style>
   
       </style>
-      <section class="page2 ">
+      <section class="page2 section">
         <div class="page_container">
 
-         <h2 class="">В ПРОДАЖЕ</h2>
+         <!-- <h2 class="">В ПРОДАЖЕ</h2> -->
         
          
-<?php for ($i=0; $i <2 ; $i++) { ?> 
+
   
 
 <div  class="col-sm-12  ">
-  
+  <a href="/zhk-sity-park">
   <div class="parallax-container">
       <div class="parallax"><img  src="images/parallax/1.png"></div>
 
@@ -138,7 +138,7 @@ include_once 'head/sidebar.php';
          <div class="caption-paralax">
          <div class="col-sm-24">
            <p class="home_tilte">
-             СитиПарк
+            ЖК Сити Парк
            </p>
 
          </div>
@@ -149,9 +149,11 @@ include_once 'head/sidebar.php';
         <p class="home_tilte3"><b> В продаже 4 </b> квартиры</p>    
          </div> -->
 </div>
+</a>
 </div>
 <div  class="col-sm-12  ">
   
+  <a href="/zhk-ostrova">
 <div class="parallax-container">
       <div class="parallax"><img src="images/parallax/1.png"></div>
     </div>
@@ -160,37 +162,97 @@ include_once 'head/sidebar.php';
 
          <div class="col-sm-24">
            <p class="home_tilte">
-             СитиПарк
+            ЖК Острова
            </p>
 
          </div>
-         <div class="col-sm-12">
-           <p class="home_tilte2">Первая секция сдана в 2016г.</p>
-         </div>
-         <div class="col-sm-12">
-        <p class="home_tilte3"><b> В продаже 4 </b> квартиры</p>    
-         </div>
+       
 
 
 </div>
+</a>
 </div>
 
 <div class="clearfix"></div>
 
-<?php } ?>
+<div  class="col-sm-12 mt_up ">
+  <a href="/zhk-leskaj">
+  <div class="parallax-container">
+      <div class="parallax"><img  src="images/parallax/1.png"></div>
+
+
+    </div>
+         <div class="caption-paralax">
+         <div class="col-sm-24">
+           <p class="home_tilte">
+             
+             ЖК ЛесSky
+           
+           </p>
+
+         </div>
+   <!--       <div class="col-sm-12">
+           <p class="home_tilte2">Первая секция сдана в 2016г.</p>
+         </div>
+         <div class="col-sm-12">
+        <p class="home_tilte3"><b> В продаже 4 </b> квартиры</p>    
+         </div> -->
+</div>
+</a>
+</div>
+<div  class="col-sm-12 mt_up ">
+  
+  <a href="/">
+<div class="parallax-container">
+      <div class="parallax"><img src="images/parallax/1.png"></div>
+    </div>
+         <div class="caption-paralax">
+
+
+         <div class="col-sm-24">
+           <p class="home_tilte">
+            
+             ЖК Лузановский Парк
+           
+           </p>
+
+         </div>
+     
+
+
+</div>
+</a>
+</div>
+
+<div class="clearfix"></div>
+
+
+
+
          
           
          
         </div>
       </section>
       
-      <section class="page3 white">
+      <section class="page3 section">
         <div class="page_container">
-          <h1>Pretty Neat Eh?</h1>
-          <h2>You can customise the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up with. Don't forget to grab them for free on Github'</h2>
-          <div class="btns">
-            <a class="reload btn" href="https://github.com/peachananr/onepage-scroll">Download on Github</a>
-          </div>
+
+
+
+
+          <div class="go_down">
+          <h2>Мы на карте</h2>
+          <div id="map"></div>
+<?php 
+include_once 'footer.php';
+ ?>
+
+</div>
+
+
+
+
         </div>
       </section>
    </div>
@@ -235,7 +297,7 @@ include_once 'head/footer_scripts.php';
   <script>
     $(document).ready(function(){
       $(".main").onepage_scroll({
-        sectionContainer: "section",
+        sectionContainer: ".section",
         responsiveFallback: 600,
         loop: true
       });
@@ -277,7 +339,9 @@ include_once 'head/footer_scripts.php';
 
   </script>
 
-
+  <script src="/scripts/contact_map.js"></script>
+    <script src="/scripts/contact.js"></script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD07Z4GaSHgApgpnyQTnbFugeW9IwKd1GI&callback=initMap"> </script>
 
 
 
