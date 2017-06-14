@@ -47,6 +47,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 
 
@@ -75,20 +76,91 @@ include_once 'head/sidebar.php';
           ?>
           
         </div>
-        <div class="col-sm-15 col-sm-offset-9 col-md-18 col-md-offset-6  col-lg-offset-5 col-lg-19 main">
+        <div class="col-sm-15 col-sm-offset-9 col-md-18 col-md-offset-6  col-lg-offset-5 col-lg-19 wrap_naw_top main">
 
 <!-- <div class="col-xs-12 col-sm-6">button</div>
 <div class="col-xs-12 col-sm-6">button</div>
 <div class="col-xs-12 col-sm-6">button</div>
 <div class="col-xs-12 col-sm-6">button</div> -->
 
- <ul id="tabs-swipe-contacts" class="tabs">
-    <li class="tab "><a class="active"  href="#test-swipe-1">ОСНОВАТЕЛЬ</a></li>
-    <li class="tab "><a  href="#test-swipe-2">ПРЕЗИДЕНТ</a></li>
-     <li class="tab "><a  href="#test-swipe-3">СОВЕТ ДИРЕКТОРОВ</a></li>
+<!--  <ul id="tabs-swipe-contacts" class="tabs" class="hidden-xs hidden-sm">
+    <li class="  col col-sm-8  col-md-8 col-lg-6"><a class="tab active"  href="#test-swipe-1">ОСНОВАТЕЛЬ</a></li>
+    <li class="  tab col col-sm-8  col-md-8 col-lg-6"><a  href="#test-swipe-2">ПРЕЗИДЕНТ</a></li>
+    <li class="  tab col col-sm-8  col-md-8 col-lg-6"><a  href="#test-swipe-3">СОВЕТ ДИРЕКТОРОВ</a></li>
      
-      <li class="tab status">  <button>  контакты </button> </li>
+      <li class=" wrap_naw_top  status col col-sm-6  col-lg-5 hidden-md "> <div class="wrap_a"> <a class="where" href="!">Harbinger</a> </div></li>
   </ul>
+  
+
+
+  <div class="wrap_mobile_menu hidden-md hidden-lg ">
+    
+ 
+ <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#test-swipe-1" class="active">ОСНОВАТЕЛЬ</a> </div>
+   <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#test-swipe-2">ПРЕЗИДЕНТ</a> </div>
+   <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#test-swipe-3">СОВЕТ ДИРЕКТОРОВ</a> </div>
+  
+   <div class="col-sm-12 col-xs-24   col-md-24 col-lg-6 mt3-5 pseudo_tab  text-center ">  <a class="" href="!">контакты</a> </div>
+
+ </div>
+ -->
+
+
+
+
+<div class="">
+  <ul id="tabs-swipe-contacts" class="tabs ">
+    <li class="tab   col-lg-4 "><a class="active"  href="#test-swipe-1">ОСНОВАТЕЛЬ</a></li>
+    <li class="tab  col-lg-4  "><a  href="#test-swipe-2">ПРЕЗИДЕНТ</a></li>
+     <li class="tab   col-lg-6  "><a  href="#test-swipe-3">СОВЕТ ДИРЕКТОРОВ</a></li>
+     
+      <li class="tab hidden-xs hidden-sm   col-lg-6  status">  <a class="where" href="#nothing">Harbinger</a> </li>
+  </ul>
+</div>
+
+<!-- <div class=" hidden-md hidden-lg"> -->
+<!-- <div class="">
+   <ul id="tabs-swipe-contacts_mobile" class="tabs ">
+    <li class="tab   "><a class="active"  href="#test-swipe-1">ОСНОВАТЕЛЬ</a></li><br>
+    <li class="tab  hidden "><a  href="#test-swipe-2">ПРЕЗИДЕНТ</a></li>
+     <li class="tab   hidden "><a  href="#test-swipe-3">СОВЕТ ДИРЕКТОРОВ</a></li>
+
+  </ul>
+</div> -->
+
+
+
+
+
+
+
+
+
+<!--   <div class="wrap_mobile_menu hidden-md hidden-lg ">
+    
+ 
+ <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 tab text-center">  <a href="#test-swipe-1" class="active">ОСНОВАТЕЛЬ</a> </div>
+   <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 tab text-center">  <a href="#test-swipe-2">ПРЕЗИДЕНТ</a> </div>
+   <div class="col-sm-24 col-xs-24 col-md-6 col-lg-6 mt3-5 tab text-center">  <a href="#test-swipe-3">СОВЕТ ДИРЕКТОРОВ</a> </div>
+  
+   <div class="col-sm-24 col-xs-24   col-md-24 col-lg-6 mt3-5 pseudo_tab  text-center ">  <a class="where" href="!">контакты</a> </div>
+
+ </div> -->
+
+<!--    <div class="wrap_mobile_menu   hidden-md hidden-lg ">
+    
+ 
+ <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 tab text-center">  <a href="/creater.php#test-swipe-1" class="active">ОСНОВАТЕЛЬ</a> </div>
+   <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 tab text-center">  <a href="/creater.php#test-swipe-2">ПРЕЗИДЕНТ</a> </div>
+   <div class="col-sm-24 col-xs-24 col-md-6 col-lg-6 mt3-5 tab text-center">  <a href="/creater.php#test-swipe-3">СОВЕТ ДИРЕКТОРОВ</a> </div>
+  
+   <div class="col-sm-24 col-xs-24   col-md-24 col-lg-6 mt3-5 pseudo_tab  text-center ">  <a class="where" href="!">контакты</a> </div>
+
+ </div> -->
+
+
+<div class="clearfix"></div>
+
   <div id="test-swipe-1" class="col-sm-24  res-p ">
     
     <div class="col-sm-8 top_z hidden-xs hidden-sm">
@@ -355,6 +427,9 @@ include_once 'head/footer_scripts.php';
 
   <script src="/scripts/contact_map.js"></script>
     <script src="/scripts/creater.js"></script>
+
+
+
 
 
   </body>

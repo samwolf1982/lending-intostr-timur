@@ -75,8 +75,8 @@ include_once 'head/sidebar.php';
           <div class="col-sm-24 col-md-6"></div>
           <div class="col-sm-24 col-md-6"></div>
           <div class="col-sm-24 col-md-6">
-          <div class="wrap_btn">
-            <button > контакты</button>
+          <div class="wrap_btn hidden-xs hidden-sm ">
+           <a class="where" href="#nothing">Harbinger</a> 
           </div>
           </div>
          <div class="clearfix"></div>
@@ -94,9 +94,17 @@ include_once 'head/sidebar.php';
  
  <div class="col-sm-24  pt2">  
        <section>
+       <h1 class="hidden" ></h1>
+
+
+   <div class="wrap_text">   
+
+
          <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt earum corrupti praesentium consectetur iusto, sequi alias ex. Consequatur corrupti, accusamus, illo error consequuntur nesciunt fugit aliquam architecto possimus aperiam eum.</div>
          <div>Minus quaerat, cupiditate iste ab nulla reprehenderit magni voluptatibus voluptate eos, delectus nemo corrupti id ullam ipsum sed, commodi velit, harum mollitia quam sint dolorum dolor veniam. Saepe, eveniet, iure!</div>
          <div>Quaerat molestiae quo quae ut mollitia deserunt cupiditate nihil nisi ex distinctio aperiam reprehenderit iure, rem eaque eos eligendi quisquam amet neque repellat ipsam nam veniam sit. Iure, tenetur, eum!</div>
+
+</div>
 
 
        </section>

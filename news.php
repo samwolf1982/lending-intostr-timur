@@ -74,7 +74,7 @@ include_once 'head/sidebar.php';
    <div class="col-sm-12 col-xs-24 col-md-6 col-lg-5 mt3-5">  <a href="/">жк ситипарк</a> </div>
    <div class="col-sm-12 col-xs-24 col-md-6 col-lg-5 mt3-5">  <a href="/">жк лескай</a> </div>
    <div class="col-sm-12 col-xs-24 col-md-6 col-lg-5 mt3-5">  <a href="/">жк острова</a> </div>
-   <div class="col-sm-12 col-xs-24   col-md-24 col-lg-4 mt3-5 ">  <a class="" href="/">контакты</a> </div>
+   <div class="col-sm-12 col-xs-24   col-md-24 col-lg-4 mt3-5 ">    <a class="where" href="#nothing">Harbinger</a>  </div>
 
  </div>   
  <div class="clearfix"></div>
@@ -92,6 +92,8 @@ include_once 'head/sidebar.php';
         
         </div>
       </li>
+
+   
        
     </ul>
   </div>

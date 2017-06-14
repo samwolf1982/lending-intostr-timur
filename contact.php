@@ -48,7 +48,7 @@
 
 
 
-
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 
 
@@ -73,18 +73,18 @@ include_once 'head/sidebar.php';
           ?>
           
         </div>
-        <div class="col-sm-15 col-sm-offset-9 col-md-18 col-md-offset-6  col-lg-offset-5 col-lg-19 main">
+        <div class="col-sm-15 col-sm-offset-9 col-md-18 col-md-offset-6  col-lg-offset-5 col-lg-19 main wrap_naw_top">
 
 <!-- <div class="col-xs-12 col-sm-6">button</div>
 <div class="col-xs-12 col-sm-6">button</div>
 <div class="col-xs-12 col-sm-6">button</div>
 <div class="col-xs-12 col-sm-6">button</div> -->
 
- <ul id="tabs-swipe-contacts" class="tabs">
+ <ul id="tabs-swipe-contacts" class="tabs ">
     <li class="tab "><a class="active"  href="#test-swipe-1">псг интострой</a></li>
     <li class="tab "><a  href="#test-swipe-2">отдел продаж</a></li>
      
-      <li class="tab status">  <button>  контакты </button> </li>
+      <li class="tab status hidden-xs hidden-sm hidden-md  ">  <a class="where" href="!">Harbinger</a> </li>
   </ul>
   <div id="test-swipe-1" class="col-sm-24  res-p">
  

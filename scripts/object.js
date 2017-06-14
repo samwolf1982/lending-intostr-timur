@@ -11,6 +11,9 @@ $('.scrollspy').scrollSpy();
     $('#slider1').slider({'height':600,'indicators':false}); 
 
        $('#slider3').slider({'height':400,'indicators':false}); 
+
+
+   
     // $('#slider2').slider({'height':200,'indicators':false});  
         // $('#slider1').slider();      
 $('.parallax').parallax();

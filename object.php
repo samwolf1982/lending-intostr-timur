@@ -11,6 +11,8 @@
 
 
 
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
 
 
 
@@ -82,85 +84,83 @@ include_once 'head/sidebar.php';
 <div class="col-xs-12 col-sm-6">button</div>
 <div class="col-xs-12 col-sm-6">button</div> -->
 
- <ul id="tabs-swipe-contacts" class="">
-    <li class="pseudo_tab col s3"><a class="active"  href="#finished">сданые</a></li>
-    <li class="pseudo_tab col s3"><a  href="#sales">в продаже</a></li>
-    <li class="pseudo_tab col s3"><a  href="#progects">проекты</a></li>
+ <ul id="tabs-swipe-contacts" class="hidden-xs hidden-sm">
+    <li class="wrap_naw_top pseudo_tab col col-sm-8  col-md-8 col-lg-6"><a class="active"  href="#finished">сданые</a></li>
+    <li class="wrap_naw_top pseudo_tab col col-sm-8  col-md-8 col-lg-6"><a  href="#sales">в продаже</a></li>
+    <li class="wrap_naw_top pseudo_tab col col-sm-8  col-md-8 col-lg-6"><a  href="#progects">проекты</a></li>
      
-      <li class=" status col s3">  <button>  контакты </button> </li>
+      <li class=" wrap_naw_top  status col col-sm-6  col-lg-6 hidden-md "> <div class="wrap_a"> <a class="where" href="#cl-effect-14">Harbinger</a> </div></li>
   </ul>
+  
 
 
-  <div id="test-swipe-1" class="col-sm-24  res-p">
+  <div class="wrap_mobile_menu hidden-md hidden-lg ">
     
-   <div class="slider" id="slider1">
+ 
+ <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#finished" class="active">сданые</a> </div>
+   <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#sales">в продаже</a> </div>
+   <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#progects">проекты</a> </div>
+  
+   <div class="col-sm-12 col-xs-24   col-md-24 col-lg-6 mt3-5 pseudo_tab  text-center ">  <a class="" href="/">контакты</a> </div>
+
+ </div>
+
+
+
+
+  <div id="test-swipe-1" class="col-sm-24 col-xs-24  ">
+    
+
+
+
+
+
+   <div class="slider slider-object" id="slider1">
     <ul class="slides">
       <li>
-        <img  src="/images/sliders/lessky_cam_01.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Ближе к природе</h3>
-          
-
-        </div>
+        <img  class="img-responsive" src="/images/sliders/lessky_cam_01.jpg"> <!-- random image -->
+  
 
       </li>
       <li>
-        <img src="/images/sliders/lessky_cam_02.jpg"> <!-- random image -->
-          <div class="caption left-align">
-          <h3>Ближе к природе</h3>
-        
-        </div>
+        <img  class="img-responsive" src="/images/sliders/lessky_cam_02.jpg"> <!-- random image -->
+     
       </li>
 
         <li>
-        <img  src="/images/sliders/lessky_cam_04.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Ближе к природе</h3>
-          
-
-        </div>
+        <img  class="img-responsive" src="/images/sliders/lessky_cam_04.jpg"> <!-- random image -->
+  
 
       </li>
 
       <li>
-        <img  src="/images/sliders/lessky_cam_05.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Ближе к природе</h3>
-          
+        <img  class="img-responsive" src="/images/sliders/lessky_cam_05.jpg"> <!-- random image -->
 
-        </div>
 
       </li>
 
 
             <li>
-        <img  src="/images/sliders/lessky_cam_08.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Ближе к природе</h3>
-          
-
-        </div>
+        <img class="img-responsive"  src="/images/sliders/lessky_cam_08.jpg"> <!-- random image -->
+ 
 
       </li>
 
            <li>
-        <img  src="/images/sliders/lessky_cam_10.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Ближе к природе</h3>
-          
+        <img  class="img-responsive" src="/images/sliders/lessky_cam_10.jpg"> <!-- random image -->
 
-        </div>
 
       </li>
 
 
     </ul>
+    <div class="clearfix"></div>
   </div>
-
+     <div class="clearfix"></div>
   </div>
 
 <!-- second part -->
-  <div id="test-swipe-2" class="col-sm-24  res-p pt3">
+  <div id="test-swipe-2" class="col-sm-24 mt3-5  res-p pt3">
 
       <h2>О КОМПЛЕКСЕ</h2>
     
@@ -168,7 +168,7 @@ include_once 'head/sidebar.php';
   
   
 
-<div  class="col-sm-24 col-md-12  ">
+<div  class="col-sm-24 col-md-12 mt3-5">
   <div class="wrap_text_complecs">
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sint obcaecati cupiditate expedita quasi nesciunt voluptates et, ipsam dolor doloribus dicta architecto esse magni dolore voluptate inventore illo tempora! Inventore.</div>
     <div>Quibusdam nam commodi officiis, unde qui, fuga facilis harum, quod dolorum magnam perspiciatis aspernatur sapiente ipsa doloremque autem ipsum error vitae. Officiis tenetur laudantium culpa recusandae nobis laboriosam, earum qui.</div>
@@ -183,11 +183,11 @@ include_once 'head/sidebar.php';
       </div>
 
 </div>
-<div  class="col-sm-24 col-md-12  ">
+<div  class="col-sm-24 col-md-12  mt3-5">
 <div class="wrap_video">
  
 <video class="responsive-video" controls>
-    <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4">
+    <source src="/videos/big_buck_bunny.mp4" type="video/mp4">
   </video>
 
 
@@ -201,8 +201,8 @@ include_once 'head/sidebar.php';
 
 
 
-
-<div id="corpus_line" class="col-sm-24  res-p z-depth-5 pt3" >
+<div id="corpus_line" class="col-sm-24 " >
+<div id="corpus_line" class="col-sm-24  res-p z-depth-5  pt3 " >
 <div class="col-sm-5"> <div class="wrap_under_corpus">  <a href="#corpus1"> Корпус 1 </a> </div></div>
 <div class="col-sm-5"> <div class="wrap_under_corpus"> <a href="#corpus2"> Корпус 2 </a> </div></div>
 <div class="col-sm-5"> <div class="wrap_under_corpus"> <a href="#corpus2"> Корпус 3 </a> </div></div>
@@ -211,7 +211,7 @@ include_once 'head/sidebar.php';
 
 
 
-</div>  
+</div> </div>   
 <div class="clearfix"></div>
 
 
@@ -273,7 +273,7 @@ include_once 'head/sidebar.php';
 <div class="clearfix"></div>
 
 
-<div  class="col-sm-24 z-depth-5 mt3" id="news-block">
+<div  class="col-sm-24 z-depth-5  mt4 " id="news-block">
    <h3 class="text-center">Новости</h3>
 
   <div class="carousel">
@@ -303,7 +303,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur laboriosam
 <div class="clearfix"></div>
 <div  class="col-sm-24 ">
 
-      <div class="text-center mt3">
+      <div class="text-center mt4">
      
      <a href="" target="_blank">  <button class="yellow_btn" >ВИДЕО-ТРАНСЛЯЦИЯ</button>
       </a>
@@ -316,7 +316,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur laboriosam
 
 
 
-<div  class="col-sm-24 z-depth-5 mt3" id="news-block">
+<div  class="col-sm-24 z-depth-5 mt4" id="news-block">
    <h3 class="text-center">Фото отчет</h3>
 
 
@@ -377,7 +377,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur laboriosam
 <div class="clearfix"></div>
 
 
-<div  class="col-sm-24  mt3"  >
+<div  class="col-sm-24  mt3 "  >
 <h1 class="text-center" >БЛИЖЕ К ПРИРОДЕ</h1>
 </div>
 
@@ -386,8 +386,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur laboriosam
 
 
 
-<div class="col-sm-24 col-md-24  col-lg-8 yellow_fon yf res-p" id="news-block-slider2" >
-
+<div class="col-sm-24 col-md-24  col-lg-8  yf  res-p"  >
+<div class="wrap_section yellow_fon" id="news-block-slider2">
 <section>
 <br>
     <h5 class="text-center" >ПРЕИМУЩЕСТВО ЖК ЛЕССКАЙ</h5>
@@ -397,7 +397,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur laboriosam
  
   </section>
 </div>
- <div class="col-sm-24 col-md-24 col-lg-16 res-p">
+
+</div>
+ <div class="col-sm-24 col-md-24 col-lg-16 res-p image_wrap_block">
    
    <div class="slider" id="slider3">
     <ul class="slides">
@@ -493,7 +495,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur laboriosam
   
 
 
-<div  class="col-sm-24  mt3 select-room res-p"  >
+<div  class="col-sm-24  mt3 select-room res-p mt5"  >
  
    
 <div class="col-sm-24 res-p">
@@ -679,7 +681,6 @@ include_once 'head/footer_scripts.php';
 
 
 <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
-
 
 
 

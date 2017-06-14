@@ -56,3 +56,58 @@ padding-left: 2em;
 .card.small .card-image+.card-content, .card.medium .card-image+.card-content, .card.large .card-image+.card-content {
 	height: 100%;
 }
+
+.status{
+	padding-left: 11%!important;
+}
+
+
+.wrap_mobile_menu a{
+	padding: 12px;
+}
+
+
+#tabs-swipe-contacts_mobile,#tabs-swipe-contacts_mobile3,#tabs-swipe-contacts_mobile2{
+	text-align: center;
+	    text-align: -webkit-center;
+	    height: 100%;
+	    	background-color: transparent;
+}
+
+#tabs-swipe-contacts_mobile li ,#tabs-swipe-contacts_mobile3 li ,#tabs-swipe-contacts_mobile2 li {
+ display: block;
+ float: initial;
+ margin-top: 1em;
+ text-align: center;
+	    text-align: -webkit-center;
+
+}
+
+#tabs-swipe-contacts_mobile .indicator ,#tabs-swipe-contacts_mobile2 .indicator ,#tabs-swipe-contacts_mobile3 .indicator {
+display: none !important;
+
+}
+
+
+
+
+#tabs-swipe-contacts_mobile li a,#tabs-swipe-contacts_mobile2 li a,#tabs-swipe-contacts_mobile3 li a {
+	background-color: transparent;
+	text-align: center !important;
+	    text-align: -webkit-center !important;
+
+    color: white;
+    border: 1px solid #d6632c;
+    /* width: 80%; */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 26px;
+    text-align: left;
+
+     display: block;
+   
+
+
+    }
+
+

@@ -42,7 +42,7 @@
 
 
 
-
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 
 
@@ -75,18 +75,47 @@ include_once 'head/sidebar.php';
 <div class="col-xs-12 col-sm-6">button</div>
 <div class="col-xs-12 col-sm-6">button</div> -->
 
- <ul id="tabs-swipe-contacts" class="">
-    <li class="pseudo_tab col s3"><a class="active"  href="#finished">сданые</a></li>
-    <li class="pseudo_tab col s3"><a  href="#sales">в продаже</a></li>
-    <li class="pseudo_tab col s3"><a  href="#progects">проекты</a></li>
+
+
+
+
+
+
+<ul id="tabs-swipe-contacts" class="hidden-xs hidden-sm">
+    <li class="wrap_naw_top_m pseudo_tab col col-sm-8  col-md-8 col-lg-6"><a class="active"  href="#finished">сданые</a></li>
+    <li class="wrap_naw_top_m pseudo_tab col col-sm-8  col-md-8 col-lg-6"><a  href="#sales">в продаже</a></li>
+    <li class="wrap_naw_top pseudo_tab col col-sm-8  col-md-8 col-lg-6"><a  href="#progects">проекты</a></li>
      
-      <li class=" status col s3">  <button>  контакты </button> </li>
+      <li class=" wrap_naw_top  status col col-sm-6  col-lg-6 hidden-md "> <div class="wrap_a"> <a class="where" href="#cl-effect-14">Harbinger</a> </div></li>
   </ul>
+  
 
 
-  <div id="test-swipe-1" class="col-sm-24  res-p">
+  <div class="wrap_mobile_menu hidden-md hidden-lg ">
     
-   <div class="slider" id="slider1">
+ 
+ <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#finished" class="active">сданые</a> </div>
+   <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#sales">в продаже</a> </div>
+   <div class="col-sm-12 col-xs-24 col-md-6 col-lg-6 mt3-5 pseudo_tab text-center">  <a href="#progects">проекты</a> </div>
+  
+   <div class="col-sm-12 col-xs-24   col-md-24 col-lg-6 mt3-5 pseudo_tab  text-center ">  <a class="" href="/">контакты</a> </div>
+
+ </div>
+
+
+
+
+
+
+
+
+<div class="clearfix"></div>
+
+
+
+  <div id="test-swipe-1" class="col-sm-24 col-xs-24 ">
+    <div class="clearfix"></div>
+   <div class="slider slider-object" id="slider1">
     <ul class="slides">
       <li>
         <img  src="/images/sliders/1.png"> <!-- random image -->
@@ -98,15 +127,13 @@ include_once 'head/sidebar.php';
       <li>
         <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
         <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+         
         </div>
       </li>
       <li>
         <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
         <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+         
         </div>
       </li>
       <li>
@@ -117,8 +144,9 @@ include_once 'head/sidebar.php';
         </div>
       </li>
     </ul>
+        <div class="clearfix"></div>
   </div>
-
+    <div class="clearfix"></div>
   </div>
 
 <!-- second part -->
@@ -187,7 +215,7 @@ include_once 'head/sidebar.php';
 
 
 
-
+<h1 id="scroll-to"></h1>
  <div id="test-swipe-3" class="col-sm-24  res-p">
 
    <div class="slider" id="slider2">
@@ -321,12 +349,53 @@ include_once 'head/footer_scripts.php';
  ?>
 
 
+<script>
+  
+ var options = [ 
+ // {selector: '#staggered-test', offset: 50, callback: function(el) { Materialize.toast("This is our ScrollFire Demo!", 1500 ); } },
+ // {selector: '#staggered-test', offset: 205, callback: function(el) { Materialize.toast("Please continue scrolling!", 1500 ); } },
+  // {selector: '#nav_velosity', offset: 50, callback: function(el) { Materialize.showStaggeredList($(el)); } }, 
+  {selector: '#test-swipe-3', offset: 1600, callback: function(el) { Materialize.fadeInImage($(el)); } }
+   ];
+
+   Materialize.scrollFire(options);
+
+
+   $(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    // Do something
+    console.log(scroll);
+});
+
+
+  $(window).scroll(function() {
+   var hT = $('#scroll-to').offset().top,
+       hH = $('#scroll-to').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+    console.log((hT-wH) , wS);
+   
+ 
+   if (wS > (hT+hH-wH)){
+        if ($('#test-swipe-3').css('margin-left')=='1260px') {
+           console.log( 'oikii');
+           $('#test-swipe-3').animate({
+  'margin-left': 0,
+}, 1000 );
+        }
+
+   }
+});
+
+
+</script>
 
 
 
 
  
     <script src="/scripts/objects.js"></script>
+
 
 
   </body>

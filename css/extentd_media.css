@@ -26,6 +26,16 @@
   body{
      	background-color: black !important;
      }
+
+#slider1.slider-object .slides{
+    height: 200px!important;
+}
+#slider1.slider-object{
+    height: 200px!important;
+}
+
+
+
 }
 
 @media only screen and (max-width : 320px) {

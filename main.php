@@ -28,6 +28,7 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <!-- Custom styles for this template -->
+        <link href="/css/onepage-scroll.css" rel="stylesheet">
     <link href="/css/dashboard.css" rel="stylesheet">
     <link href="/css/dashboard_main.css" rel="stylesheet">
 
@@ -47,7 +48,7 @@
     <![endif]-->
 
 
-
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 
 
@@ -74,8 +75,12 @@ include_once 'head/sidebar.php';
           ?>
 
         </div>
-        <div class="col-sm-15 col-sm-offset-9 col-md-18 col-md-offset-6  col-lg-offset-5 col-lg-19 main">
+
+        <div class="col-sm-15 col-sm-offset-9 col-md-18 col-md-offset-6  col-lg-offset-5 col-lg-19 main2">
           
+
+   <div class="col-sm-24 hidden-xs hidden-sm  main ">
+        <section class="page1 ">
           <div class="col-sm-24 col-md-6">
           <p class="main_text_up" >построено</p>
            <p class="main_text_bottom" >100000м<sup>2</sup> </p>
@@ -92,7 +97,7 @@ include_once 'head/sidebar.php';
           </div>
           <div class="col-sm-24 col-md-6">
           <div class="wrap_btn">
-            <button > контакты</button>
+           <a class="where" href="!">Harbinger</a>
           </div>
           </div>
 
@@ -101,277 +106,110 @@ include_once 'head/sidebar.php';
 
 
    <!-- white footer -->
-   <div class="col-sm-24 hidden-xs hidden-sm  go_down">
+   <!-- <div class="col-sm-24 hidden-xs hidden-sm  go_down">
+     lorem
+   </div> -->
 
-    <div class="col-sm-24 col-md-8 lescai">
-
-<div  class="clientsDropDown">
-  <div  class="clientsDashboard">
    
-       <div class="wrap_pop_form wrap_pop_form1">
-         
-         
-         <div class="slider slider_not_mobile" >
-    <ul class="slides">
-    <?php foreach (range(1, 5) as $key => $value) { ?>
-      <li>
-        <img src="/images/main/mobile/1.png"> <!-- random image -->
-      </li>
-    <?php } ?>
-    </ul>
-  </div>
-         
-
-       <section>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
-        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
-
-       </section>
-
-   <div class="text-center wrap_mobile_btn">
      
-     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
-      </a>
-
-      </div>
-<div class="clearfix"></div>
-
-
-         <div class="slider slider_not_mobile" >
-    <ul class="slides">
-    <?php foreach (range(1, 5) as $key => $value) { ?>
-      <li>
-        <img src="/images/main/mobile/1.png"> <!-- random image -->
-      </li>
-    <?php } ?>
-    </ul>
-  </div>
-         
-
-       <section>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
-        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
-
-       </section>
-
-   <div class="text-center wrap_mobile_btn">
-     
-     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
-      </a>
-
-      </div>
-
-       
-
-
-
-       
-
-       </div>
-
+        <div class="page_container">
     
-  </div>
-  <!-- /clientsDashboard -->
- 
+        </div>
+              
+      </section>
+      
+      <style>
+  
+      </style>
+      <section class="page2 ">
+        <div class="page_container">
+
+         <h2 class="">В ПРОДАЖЕ</h2>
+        
+         
+<?php for ($i=0; $i <2 ; $i++) { ?> 
+  
+
+<div  class="col-sm-12  ">
+  
+  <div class="parallax-container">
+      <div class="parallax"><img  src="images/parallax/1.png"></div>
+
+
+    </div>
+         <div class="caption-paralax">
+         <div class="col-sm-24">
+           <p class="home_tilte">
+             СитиПарк
+           </p>
+
+         </div>
+   <!--       <div class="col-sm-12">
+           <p class="home_tilte2">Первая секция сдана в 2016г.</p>
+         </div>
+         <div class="col-sm-12">
+        <p class="home_tilte3"><b> В продаже 4 </b> квартиры</p>    
+         </div> -->
+</div>
+</div>
+<div  class="col-sm-12  ">
+  
+<div class="parallax-container">
+      <div class="parallax"><img src="images/parallax/1.png"></div>
+    </div>
+         <div class="caption-paralax">
+
+
+         <div class="col-sm-24">
+           <p class="home_tilte">
+             СитиПарк
+           </p>
+
+         </div>
+         <div class="col-sm-12">
+           <p class="home_tilte2">Первая секция сдана в 2016г.</p>
+         </div>
+         <div class="col-sm-12">
+        <p class="home_tilte3"><b> В продаже 4 </b> квартиры</p>    
+         </div>
+
+
+</div>
 </div>
 
-
-   
-      <div class=" col-md-18">
-
-
-        <p class="footer_text">
-          ЖК "ЛЕССКАЙ"
-        </p>
-        </div>
-              <div class="col-md-6 logo_foot">
-              <img class="img-responsive" src="/images/main/logos/1.png" alt="ЖК ЛЕССКАЙ">  
-        </div>
-    </div>
-
-
-
-       <div class="col-sm-24 col-md-8 lescai ">
-
-<div  class="clientsDropDown">
-  <div  class="clientsDashboard">
-   
-       <div class="wrap_pop_form wrap_pop_form2">
-         
-         
-         <div class="slider slider_not_mobile" >
-    <ul class="slides">
-    <?php foreach (range(1, 5) as $key => $value) { ?>
-      <li>
-        <img src="/images/main/mobile/1.png"> <!-- random image -->
-      </li>
-    <?php } ?>
-    </ul>
-  </div>
-         
-
-       <section>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
-        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
-
-       </section>
-
-   <div class="text-center wrap_mobile_btn">
-     
-     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
-      </a>
-
-      </div>
 <div class="clearfix"></div>
 
-
-         <div class="slider slider_not_mobile" >
-    <ul class="slides">
-    <?php foreach (range(1, 5) as $key => $value) { ?>
-      <li>
-        <img src="/images/main/mobile/1.png"> <!-- random image -->
-      </li>
-    <?php } ?>
-    </ul>
-  </div>
+<?php } ?>
          
-
-       <section>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
-        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
-
-       </section>
-
-   <div class="text-center wrap_mobile_btn">
-     
-     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
-      </a>
-
-      </div>
-
-       
-
-
-
-       
-
-       </div>
-
-    
-  </div>
-  <!-- /clientsDashboard -->
- 
-</div>
-
-
-
-
-
-       <div class=" col-md-18">
-
-
-
-
-
-
-        <p class="footer_text">
-          ЖК "СИТИПАРК"
-        </p>
+          
+         
         </div>
-              <div class="logo_foot col-md-6">
-              <img class="img-responsive" src="/images/main/logos/2.png" alt="ЖК ЛЕССКАЙ">  
+      </section>
+      
+      <section class="page3 white">
+        <div class="page_container">
+          <h1>Pretty Neat Eh?</h1>
+          <h2>You can customise the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up with. Don't forget to grab them for free on Github'</h2>
+          <div class="btns">
+            <a class="reload btn" href="https://github.com/peachananr/onepage-scroll">Download on Github</a>
+          </div>
         </div>
-    </div>
-       <div class="col-sm-24 col-md-8 lescai">
+      </section>
+   </div>
 
-
-<div  class="clientsDropDown">
-  <div  class="clientsDashboard">
-   
-       <div class="wrap_pop_form wrap_pop_form2">
-         
-         
-         <div class="slider slider_not_mobile" >
-    <ul class="slides">
-    <?php foreach (range(1, 5) as $key => $value) { ?>
-      <li>
-        <img src="/images/main/mobile/1.png"> <!-- random image -->
-      </li>
-    <?php } ?>
-    </ul>
-  </div>
-         
-
-       <section>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
-        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
-
-       </section>
-
-   <div class="text-center wrap_mobile_btn">
-     
-     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
-      </a>
-
-      </div>
-<div class="clearfix"></div>
-
-
-         <div class="slider slider_not_mobile" >
-    <ul class="slides">
-    <?php foreach (range(1, 5) as $key => $value) { ?>
-      <li>
-        <img src="/images/main/mobile/1.png"> <!-- random image -->
-      </li>
-    <?php } ?>
-    </ul>
-  </div>
-         
-
-       <section>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sed dicta fugiat consequuntur vitae, doloribus quaerat magnam in labore odio a aspernatur non recusandae quo necessitatibus ad autem nesciunt iure.</div>
-        <div>Unde voluptatibus quaerat vel reiciendis iusto, veritatis. Repudiandae velit quod autem expedita impedit officiis aliquam dolor. Sequi quia, laboriosam rem, accusamus placeat modi, nihil nisi officiis, possimus illum neque totam?</div>
-
-       </section>
-
-   <div class="text-center wrap_mobile_btn">
-     
-     <a href="/" target="_blank">  <button class="yellow_btn">Подробней</button>
-      </a>
-
-      </div>
-
-       
+   <!--    <div class="col-sm-24 hidden-xs hidden-sm  ">
+     lorem2
+   </div> -->
 
 
 
-       
-
-       </div>
-
-    
-  </div>
-  <!-- /clientsDashboard -->
- 
-</div>
 
 
-
-       <div class=" col-md-18">
-        <p class="footer_text">
-          ЖК "ОСТРОВА"
-        </p>
-        </div>
-              <div class="logo_foot col-md-6">
-              <img class="img-responsive" src="/images/main/logos/1.png" alt="ЖК ЛЕССКАЙ">  
-        </div>
-    </div>
-      </div>
 
 
 <!-- mobile footer -->
  <?php 
-include 'mobile/main.php';
+ include 'mobile/main.php';
   ?>
 
 
@@ -395,6 +233,54 @@ include_once 'head/footer_scripts.php';
 
 
     <script src="/scripts/main.js"></script>
+        <script src="/scripts/jquery.onepage-scroll.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+    });
+    
+  </script>
+
+
+ <link rel="stylesheet" href="/scripts/vegas-master/dist/vegas.css">
+   <script src="/scripts/vegas-master/src/vegas.js"></script>
+
+
+<script>
+  
+
+  $(document).ready(function(){
+ 
+ $('.page1').vegas({
+  overlay: true,
+  transition: 'fade', 
+  transitionDuration: 4000,
+  delay: 10000,
+  color: 'red',
+  animation: 'random',
+  animationDuration: 20000,
+  slides: [
+    { src: '/images/main/1.jpg' },
+    { src: '/images/main/2.jpg' },
+    { src: '/images/main/3.jpg' },
+    
+  ]
+});
+ });
+
+
+
+        
+
+
+  </script>
+
+
+
 
 
   </body>

@@ -1,6 +1,6 @@
 body{
-background-image: url(/images/main/1.png);
-background-size: cover no-repeat;
+/* background-image: url(/images/main/1.png);
+background-size: cover no-repeat; */
 }
 .main_text_up{
   color: #d6632c;
@@ -165,4 +165,55 @@ margin-left: -10px;
   padding: 2em;
 }
 
+.wrap_btn {
+  padding-top: 20px;
+  text-align: center;
+  text-align: -webkit-center;
 
+}
+.where{
+      color: white;
+  
+    /* width: 80%; */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 26px;
+    text-align: left;
+}
+
+.where:hover,.where:active{
+     text-decoration: none; 
+     color: white;
+}
+
+  .page1{
+    
+  }
+
+  .main2{
+    padding: 0!important;
+   /* width: 102%;
+    left:  -20px;*/
+
+  }
+  .page1{
+/*        background-image: url(/images/main/1.png);
+background-size: cover no-repeat;*/
+  }
+
+
+        .parallax-container {
+      height: 300px;
+     /* width: 450px;*/
+    }
+
+    .caption-paralax {
+    position: relative;
+    height: 80px;
+    bottom: 80px;
+    background-color: #d6632c;
+    width: 451px;
+}
+.parallax-container{
+  width: 450px;
+}
