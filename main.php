@@ -28,7 +28,7 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <!-- Custom styles for this template -->
-        <link href="/css/onepage-scroll.css" rel="stylesheet">
+        <!-- <link href="/css/onepage-scroll.css" rel="stylesheet"> -->
     <link href="/css/dashboard.css" rel="stylesheet">
     <link href="/css/dashboard_main.css" rel="stylesheet">
 
@@ -47,7 +47,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 
 
@@ -236,11 +236,11 @@ include_once 'head/sidebar.php';
       
       <section class="page3 section">
         <div class="page_container">
+<div class="clearfix"></div>
 
 
 
-
-          <div class="go_down">
+          <div class="go_down2">
           <h2>Мы на карте</h2>
           <div id="map"></div>
 <?php 
@@ -295,11 +295,11 @@ include_once 'head/footer_scripts.php';
         <script src="/scripts/jquery.onepage-scroll.js"></script>
   <script>
     $(document).ready(function(){
-      $(".main").onepage_scroll({
-        sectionContainer: ".section",
-        responsiveFallback: 600,
-        loop: true
-      });
+      // $(".main").onepage_scroll({
+      //   sectionContainer: ".section",
+      //   responsiveFallback: 600,
+      //   loop: true
+      // });
     });
     
   </script>

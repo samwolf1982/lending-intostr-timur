@@ -204,6 +204,7 @@ background-size: cover no-repeat;*/
 
         .parallax-container {
       height: 380px;
+ /*     height: calc(100%);*/
      /* width: 450px;*/
     }
 
@@ -250,4 +251,8 @@ background-size: cover no-repeat;*/
 
 .page2 .page_container{
   padding-top: 2em;
+}
+.page1{
+  height:calc(100% - 1px);
+  min-height: calc(100vh - 0px);
 }
